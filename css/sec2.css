@@ -1,0 +1,17 @@
+section.sec2 article {text-align: center;}
+section.sec2 img {margin-top:120px;}
+section.sec2 article .textwrap {text-align: left; display: inline-block;
+                                width:40%; margin-top: 60px; font-size: 0.9em; padding-bottom:120px;}
+
+@media screen and (max-width: 1600px) {
+  section.sec2 article {width:90%;}
+}
+
+@media screen and (max-width: 1024px) {
+  section.sec2 article .textwrap {width:60%;}
+}
+
+@media screen and (max-width: 512px) {
+  section.sec2 img {width:100%;}
+  section.sec2 article .textwrap {width:95%;  padding-bottom:80px;}
+}
